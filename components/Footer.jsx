@@ -10,6 +10,7 @@ import Link from 'next/link';
 const Footer = () => (
   <motion.footer
     variants={footerVariants}
+    viewport={{ once: true, amount: 0.25 }}
     initial='hidden'
     whileInView='show'
     className={`${styles.xPaddings} py-8 relative`}
