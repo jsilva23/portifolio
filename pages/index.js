@@ -10,7 +10,6 @@ import {
 
 const Home = () => (
   <div className='bg-primary-black overflow-hidden'>
-    <Navbar />
     <Hero />
     <About />
     <GetStarted />

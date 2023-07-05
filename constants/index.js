@@ -1,35 +1,88 @@
-export const exploreWorlds = [
+export const projects = [
   {
-    id: 'world-1',
-    imgUrl: '/planet-01.png',
-    title: 'The Hogwarts',
+    id: '1',
+    title: 'The world on github',
+    link: 'https://the-world-on-github.vercel.app/',
+    gitHub: 'https://github.com/jsilva23/the-world-on-github',
+    src: '/assets/projects/github.png',
+    width: 3369,
+    height: 1672,
   },
   {
-    id: 'world-2',
-    imgUrl: '/planet-02.png',
-    title: 'The Upside Down',
+    id: '2',
+    title: 'AB Arquitetura e Design',
+    link: 'https://ab-architecture-design.vercel.app/',
+    gitHub: 'https://github.com/jsilva23/ab-architecture-design',
+    src: '/assets/projects/ab.png',
+    width: 3369,
+    height: 1672,
   },
   {
-    id: 'world-3',
-    imgUrl: '/planet-03.png',
-    title: 'Kadirojo Permai',
+    id: '3',
+    title: 'Incomum',
+    link: 'https://incomum-landing.vercel.app/',
+    gitHub: '',
+    src: '/assets/projects/incomum.png',
+    width: 3369,
+    height: 1672,
   },
   {
-    id: 'world-4',
-    imgUrl: '/planet-04.png',
-    title: 'Paradise Island',
+    id: '4',
+    title: 'My trips',
+    link: 'https://my-trips-henna.vercel.app/',
+    gitHub: 'https://github.com/jsilva23/my-trips',
+    src: '/assets/projects/my-trips.png',
+    width: 3369,
+    height: 1672,
   },
   {
-    id: 'world-5',
-    imgUrl: '/planet-05.png',
-    title: 'Hawkins Labs',
+    id: '5',
+    title: 'Password generator',
+    link: 'https://gerador-de-senha.surge.sh/',
+    gitHub: 'https://github.com/jsilva23/password-generator-app',
+    src: '/assets/projects/password.png',
+    width: 3369,
+    height: 1672,
+  },
+  {
+    id: '6',
+    title: 'Stiky notes',
+    link: 'http://stiky-notes.surge.sh/',
+    gitHub: 'https://github.com/jsilva23/stiky-notes',
+    src: '/assets/projects/stiky.png',
+    width: 3369,
+    height: 1672,
+  },
+  {
+    id: '7',
+    title: 'Quiz App',
+    link: 'http://quiz-jsapp.surge.sh/',
+    gitHub: 'https://github.com/jsilva23/app-voce-sabe',
+    src: '/assets/projects/quiz.png',
+    width: 3369,
+    height: 1672,
+  },
+  {
+    id: '8',
+    title: 'New year eve',
+    link: 'http://eve-new-year.surge.sh/',
+    gitHub: 'https://github.com/jsilva23/new-year-eve',
+    src: '/assets/projects/eve.png',
+    width: 3369,
+    height: 1672,
   },
 ];
 
 export const startingFeatures = [
-  'Find a world that suits you and you want to enter',
-  'Enter the world by reading basmalah to be safe',
-  'No need to beat around the bush, just stay on the gas and have fun',
+  '/assets/qualifications/css-3-svgrepo-com.svg',
+  '/assets/qualifications/git-svgrepo-com.svg',
+  '/assets/qualifications/Unofficial_JavaScript_logo_2.svg',
+  '/assets/qualifications/typescript-icon-svgrepo-com.svg',
+  '/assets/qualifications/sass-svgrepo-com.svg',
+  '/assets/qualifications/React-icon.svg',
+  '/assets/qualifications/next-js-seeklogo.com.svg',
+  '/assets/qualifications/firebase-seeklogo.com.svg',
+  '/assets/qualifications/nodejs-svgrepo-com.svg',
 ];
 
 export const newFeatures = [
@@ -37,52 +90,49 @@ export const newFeatures = [
     imgUrl: '/vrpano.svg',
     title: 'A new world',
     subtitle:
-        'we have the latest update with new world for you to try never mind',
+      'we have the latest update with new world for you to try never mind',
   },
   {
     imgUrl: '/headset.svg',
     title: 'More realistic',
     subtitle:
-        'In the latest update, your eyes are narrow, making the world more realistic than ever',
+      'In the latest update, your eyes are narrow, making the world more realistic than ever',
   },
 ];
 
 export const insights = [
   {
-    imgUrl: '/planet-06.png',
-    title: 'The launch of the Metaverse makes Elon musk ketar-ketir',
-    subtitle:
-        'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
+    imgUrl: '/assets/certifications/certificate-freeCodeCamp.org.png',
+    title: 'JavaScript Algorithms and Data Structures',
+    link: 'https://freecodecamp.org/certification/jsilva2/javascript-algorithms-and-data-structures',
   },
   {
-    imgUrl: '/planet-07.png',
-    title: '7 tips to easily master the madness of the Metaverse',
-    subtitle:
-        'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
+    imgUrl: '/assets/certifications/react.png',
+    title: 'React - The Complete Guide 2023 (incl. React Router & Redux)',
+    link: 'https://www.udemy.com/certificate/UC-2f4899a6-71c0-4aa6-a522-5b96748327b4/',
   },
   {
-    imgUrl: '/planet-08.png',
-    title: 'With one platform you can explore the whole world virtually',
-    subtitle:
-        'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
+    imgUrl: '/assets/certifications/next.png',
+    title: 'NextJS, GraphQL/GraphCMS e Leaflet na prática',
+    link: 'https://www.udemy.com/certificate/UC-fc411713-d400-44bb-9094-5c0fd72e44a3/',
   },
 ];
 
 export const socials = [
   {
-    name: 'twitter',
-    url: '/twitter.svg',
+    name: 'Linkedin',
+    url: 'https://www.linkedin.com/in/jsilvap10/',
   },
   {
-    name: 'linkedin',
-    url: '/linkedin.svg',
+    name: 'GitHub',
+    url: 'https://github.com/jsilva23',
   },
   {
-    name: 'instagram',
-    url: '/instagram.svg',
+    name: 'Twitter',
+    url: 'https://twitter.com/jsilva23p',
   },
   {
-    name: 'facebook',
-    url: '/facebook.svg',
+    name: 'Instagram',
+    url: 'https://www.instagram.com/jsilvap10/',
   },
 ];

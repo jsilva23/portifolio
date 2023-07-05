@@ -15,17 +15,10 @@ const GetStarted = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}
     >
-      <TitleText
-        title={<>Get started with just a few clicks</>}
-        textStyles='text-center'
-      />
-      <div className='mt-[31px] flex flex-col max-w-[370px] gap-[24px]'>
-        {startingFeatures.map((feature, index) => (
-          <StartSteps
-            key={feature}
-            number={`${index < 10 ? '0' : ''} ${index + 1}`}
-            text={feature}
-          />
+      <TitleText title={<>Minhas Qualificações</>} textStyles='text-center' />
+      <div className='mt-[31px] flex justify-around flex-wrap gap-[24px]'>
+        {startingFeatures.map((img, index) => (
+          <StartSteps key={index} img={img} />
         ))}
       </div>
     </motion.div>
