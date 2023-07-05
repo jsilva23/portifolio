@@ -18,19 +18,14 @@ const About = () => (
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className='mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white'
       >
-        <span className='font-extrabold text-white'>Metaverse</span> is a new
-        thing in the future, where you can enjoy the virtual world by feeling
-        like it's really real, you can feel what you feel in this metaverse
-        world, because this is really the{' '}
-        <span className='font-extrabold text-white'>
-          madness of the metaverse
-        </span>{' '}
-        of today, using only{' '}
-        <span className='font-extrabold text-white'>VR</span> devices you can
-        easily explore the metaverse world you want, turn your dreams into
-        reality. Let's{' '}
-        <span className='font-extrabold text-white'>explore</span> the madness
-        of the metaverse by scrolling down
+        Com mais de 3 anos de experiência em desenvolvimento{' '}
+        <span className='font-extrabold text-white'>frontend</span>, eu adquiri
+        habilidades sólidas em HTML, CSS e JavaScript, bem como experiência com
+        frameworks populares como React, Next.js e typescript. Também tenho
+        experiência em trabalhar com ferramentas de controle de versão como Git,
+        e em criar sites responsivos e acessíveis. As minhas ambições futuras
+        envolvem continuar aprendendo e evoluindo as minhas habilidades
+        técnicas, bem como expandir minhas oportunidades de carreira.
       </motion.p>
 
       <motion.img
