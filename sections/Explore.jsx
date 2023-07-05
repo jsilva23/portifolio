@@ -6,7 +6,7 @@ import PhotoAlbum from 'react-photo-album';
 import styles from '../styles';
 import { projects } from '../constants';
 import { staggerContainer } from '../utils/motion';
-import {TitleText} from '../components';
+import { TitleText } from '../components';
 import Link from 'next/link';
 
 const Explore = () => {
@@ -44,20 +44,25 @@ const Explore = () => {
                   {photo.title}
                 </h1>
                 <div className=''>
-                  <Link
-                    href={photo.link}
-                    target='_blank'
-                    className='text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800'
-                  >
-                    Demo
-                  </Link>
-                  <Link
-                    href={photo.gitHub}
-                    target='_blank'
-                    className='text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800'
-                  >
-                    Code
-                  </Link>
+                  {photo.link && (
+                    <Link
+                      href={photo.link}
+                      target='_blank'
+                      className='text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800'
+                    >
+                      Demo
+                    </Link>
+                  )}
+
+                  {photo.gitHub && (
+                    <Link
+                      href={photo.gitHub}
+                      target='_blank'
+                      className='text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800'
+                    >
+                      Code
+                    </Link>
+                  )}
                 </div>
               </div>
             </div>
